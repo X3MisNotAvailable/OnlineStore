@@ -11,22 +11,66 @@
 .img{
     position: relative;
     height: 100px;
+    padding-top: 5px;
    
-}
-
-.search{
-    position: inherit;
-    padding-top: 50px;
-    
-}
-input{
-    width: 600px;
-    height: 40px;
 }
 article {
     max-width: 940px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+    gap: 10px;
   }
+  
+.icon {
+    
+    color:white ;
+    
+
+}
+
+.input-container{
+    margin-top: 50px;
+    width: 550px;
+    padding-right: -200px;
+    
+}
+.search-box{
+    width: 500px;
+    height: 40px;
+    padding:20px;
+    border-style: none;
+    padding-right: 50px;
+    border-color: white;
+    border-style: solid;
+   
+}
+.search-btn{
+    align-content: center;
+    background-color: #141D48;
+    margin-left: -35px;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    height: 18px;
+    width: 40px;
+    border-color: white;
+    border-style: solid;
+    
+
+    
+    
+}
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
