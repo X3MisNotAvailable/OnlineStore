@@ -23,24 +23,19 @@ article {
   }
   
 .icon {
-    
     color:white ;
-    
-
 }
 
 .input-container{
     margin-top: 50px;
     width: 550px;
     padding-right: -200px;
-    
 }
 .search-box{
     width: 500px;
     height: 40px;
     padding:20px;
     border-style: none;
-    padding-right: 50px;
     border-color: white;
     border-style: solid;
    
@@ -57,10 +52,27 @@ article {
     border-color: white;
     border-style: solid;
 }
-button:hover{
+.icon:hover{
     cursor:pointer;
   }
+  
+  .shopping-cartBtn{
+      padding-top: 5px;
+      padding-left: 100px;
+      position: absolute;
+  }
+  .cart-icon{
+      color:white ;
+      size-adjust: 100px;
+      font-size: 25px;
+  }
+  .cart-icon:hover{
+      color: lightseagreen;
+      cursor:pointer;
+  }
+ 
 
+ 
 
 
 
