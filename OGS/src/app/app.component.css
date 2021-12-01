@@ -48,7 +48,7 @@ article {
 .search-btn{
     align-content: center;
     background-color: #141D48;
-    margin-left: -35px;
+    margin-left: 0px;
     position: absolute;
     text-align: center;
     padding: 10px;
@@ -56,11 +56,10 @@ article {
     width: 40px;
     border-color: white;
     border-style: solid;
-    
-
-    
-    
 }
+button:hover{
+    cursor:pointer;
+  }
 
 
 
