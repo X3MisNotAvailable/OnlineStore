@@ -1,0 +1,32 @@
+.toolbar{
+    background-color: #141D48;
+    height: 120px;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+    
+}
+.img{
+    position: relative;
+    height: 100px;
+   
+}
+
+.search{
+    position: inherit;
+    padding-top: 50px;
+    
+}
+input{
+    width: 600px;
+    height: 40px;
+}
+article {
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
