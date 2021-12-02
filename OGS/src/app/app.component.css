@@ -143,6 +143,7 @@ article {
     cursor:pointer;
     border-style:solid;
     border-color: #141D48;
+    border-radius: 20px;
 }
 .bread{
     position: inherit;
