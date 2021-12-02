@@ -168,6 +168,14 @@ article {
     padding-right: 50%;
     padding-top: 5px;  
 }
+.meat{
+    position: inherit;
+    height: 100px;;
+    width: fit-content;
+    padding-left: 20%;
+    padding-right: 50%;
+    padding-top: 5px;  
+}
 
 
 
