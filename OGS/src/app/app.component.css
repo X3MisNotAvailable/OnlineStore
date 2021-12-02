@@ -135,9 +135,24 @@ article {
     font-size: 15px;
     color: rgb(68, 68, 68);
 }
-.category-container-row1:hover{
-    background-color: #47A0FF;
+.category-container-row1:hover h1{
+    cursor:pointer;
+    color:#141D48;
 }
+.category-container-row1:hover {
+    cursor:pointer;
+    border-style:solid;
+    border-color: #141D48;
+}
+.bread{
+    position: inherit;
+    height: 100px;;
+    width: fit-content;
+    padding-left: 20%;
+    padding-right: 50%;
+    padding-top: 5px;
+}
+
 
 
 
