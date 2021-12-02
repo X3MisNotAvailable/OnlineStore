@@ -1,3 +1,7 @@
+
+body{
+    background-color: black;
+}
 .toolbar{
     background-color: #141D48;
     height: 120px;
@@ -70,15 +74,108 @@ article {
       color: lightseagreen;
       cursor:pointer;
   }
- 
 
- 
+  .category-title{
+    background-color: gainsboro;
+    position: absolute;
+    height: 50px;  
+    margin-top: 120px;
+    box-shadow: rgb(212, 211, 211);
+    width: 994px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    border-color: white;
+    
+}
+.head{
+    font-family:monospace;
+    position: inherit;
+    font-size: 19px;
+    color: rgb(68, 68, 68);
+    padding-left: 20px;
+}
+  .category-container{
+      position: absolute;
+      height: 200px;
+      width: 1000px;
+      margin-top: 176px;
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+.art-cat-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2fr, 1fr));
+    gap:1px;
+    
+}
 
-
-
-
-
-  
+.category-container-row1{
+    
+    background-color: gainsboro;
+    height: 140px;
+    border-style: solid;
+    border-color: white;
+      
+}
+.beverage{
+    position: inherit;
+    height: 100px;;
+    width: fit-content;
+    padding-left: 30%;
+    padding-right: 50%;
+    padding-top: 5px;
+}
+.category-name{
+    text-align: center;
+    margin-top: 0px;
+    font-family: monospace;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+}
+.category-container-row1:hover h1{
+    cursor:pointer;
+    color:#141D48;
+}
+.category-container-row1:hover {
+    cursor:pointer;
+    border-style:solid;
+    border-color: #141D48;
+}
+.bread{
+    position: inherit;
+    height: 100px;;
+    width: fit-content;
+    padding-left: 20%;
+    padding-right: 50%;
+    padding-top: 5px;
+}
+.can{
+    position: inherit;
+    height: 100px;;
+    width: fit-content;
+    padding-left: 30%;
+    padding-right: 50%;
+    padding-top: 5px;  
+}
+.dairy{
+    position: inherit;
+    height: 100px;;
+    width: fit-content;
+    padding-left: 25%;
+    padding-right: 50%;
+    padding-top: 5px;  
+}
+.meat{
+    position: inherit;
+    height: 100px;;
+    width: fit-content;
+    padding-left: 20%;
+    padding-right: 50%;
+    padding-top: 5px;  
+}
 
 
 
