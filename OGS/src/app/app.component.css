@@ -152,7 +152,22 @@ article {
     padding-right: 50%;
     padding-top: 5px;
 }
-
+.can{
+    position: inherit;
+    height: 100px;;
+    width: fit-content;
+    padding-left: 30%;
+    padding-right: 50%;
+    padding-top: 5px;  
+}
+.dairy{
+    position: inherit;
+    height: 100px;;
+    width: fit-content;
+    padding-left: 25%;
+    padding-right: 50%;
+    padding-top: 5px;  
+}
 
 
 
